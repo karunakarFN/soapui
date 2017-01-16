@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.eviware.soapui.support.editor.inspectors.auth.OAuth2ScriptsEditorTest
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.398 sec

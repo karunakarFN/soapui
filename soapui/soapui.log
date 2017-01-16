@@ -1,0 +1,32 @@
+2017-01-16 17:57:31,235 WARN  [SoapUI] Missing folder [/home/stonex/Desktop/soap/soapui/soapui/ext] for external libraries
+2017-01-16 17:57:31,237 INFO  [DefaultSoapUICore] initialized soapui-settings from [/home/stonex/soapui-settings.xml]
+2017-01-16 17:57:31,238 INFO  [DefaultSoapUICore] Adding listeners from [/home/stonex/Desktop/soap/soapui/soapui/listeners/demo-listeners.xml]
+2017-01-16 17:57:31,265 INFO  [PluginManager] 0 plugins loaded in 1 ms
+2017-01-16 17:57:31,265 INFO  [DefaultSoapUICore] All plugins loaded
+2017-01-16 17:57:31,395 WARN  [AnalyticsManager] Error generating Analytics session ID - returning empty String
+java.lang.NullPointerException
+	at com.eviware.soapui.analytics.AnalyticsManager.makeUserId(AnalyticsManager.java:140)
+	at com.eviware.soapui.analytics.AnalyticsManager.<init>(AnalyticsManager.java:30)
+	at com.eviware.soapui.analytics.AnalyticsManager.getInstance(AnalyticsManager.java:35)
+	at com.eviware.soapui.analytics.Analytics.getAnalyticsManager(Analytics.java:16)
+	at com.eviware.soapui.analytics.AnalyticsHelper.initializeAnalytics(AnalyticsHelper.java:55)
+	at com.eviware.soapui.SoapUI.startSoapUI(SoapUI.java:876)
+	at com.eviware.soapui.SoapUI$SoapUIRunner.run(SoapUI.java:720)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2017-01-16 17:57:31,419 INFO  [WorkspaceImpl] Loading workspace from [/home/stonex/default-soapui-workspace.xml]
+2017-01-16 17:57:32,208 INFO  [WsdlProject] Loaded project from [file:/home/stonex/Downloads/LIVE_API_Suite.xml]
+2017-01-16 17:57:32,363 INFO  [SoapUI] Used java version: 1.8.0_111
+2017-01-16 17:57:32,958 INFO  [DefaultSoapUICore] Adding actions from [/home/stonex/Desktop/soap/soapui/soapui/actions/demo-actions.xml]

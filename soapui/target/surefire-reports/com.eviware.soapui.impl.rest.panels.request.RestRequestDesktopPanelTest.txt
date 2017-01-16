@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.eviware.soapui.impl.rest.panels.request.RestRequestDesktopPanelTest
+-------------------------------------------------------------------------------
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 2.201 sec
